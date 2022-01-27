@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+
+<%= turbo_frame_tag "channel" do %>
+  <%= render @channel %>
+
+  <p>
+    <%= link_to "Edit", edit_channel_path(@channel) %> |
+    <%= link_to "Back", channels_path, "data-turbo-frame": "_top" %>
+  </p>
+<% end %>
+
+<div>
+  <%= render @channel.messages %>
+</div>
+
+<%= link_to "new message", new_channel_message_path(@channel) %>
+<%= turbo_frame_tag "new_message", src: new_channel_message_path(@channel), target: "_top" %>

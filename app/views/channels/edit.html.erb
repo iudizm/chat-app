@@ -1,0 +1,12 @@
+<h1>Editing channel</h1>
+
+<%= turbo_frame_tag "channel" do %>
+  <%= render "form", channel: @channel %>
+<% end %>
+
+<br>
+
+<div>
+  <%= link_to "Show this channel", @channel %> |
+  <%= link_to "Back to channels", channels_path %>
+</div>
