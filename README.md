@@ -1,24 +1,8 @@
-# README
+# Chat App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I'm developing this simple chat application to learn a little about [Hotwired](https://hotwired.dev/) gems: [`turbo-rails`](https://github.com/hotwired/turbo-rails) and [`stimulus-rails`](https://github.com/hotwired/stimulus-rails).
 
-Things you may want to cover:
+* Ruby: `3.1.0`
 
-* Ruby version
+* Rails: `7.0.1`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
